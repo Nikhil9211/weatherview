@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+background: #2eb4c9;
+background: linear-gradient(137deg, rgba(46, 180, 201, 1) 0%, rgba(63, 67, 186, 1) 100%, rgba(121, 212, 209, 1) 46%);  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #ff6f61;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #ff3b2e;
+}
+
+.weather-display h2 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.weather-display p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
