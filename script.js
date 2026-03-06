@@ -8,7 +8,7 @@ async function getWeather() {
   }
 
   const apiKey = "a2922e53f9c34d9ebd830519260603"; 
-  const url = `https://api.weatherapi.com/v1/current.json?key=a2922e53f9c34d9ebd830519260603&q=London&aqi=yes`;
+  const url = `http://api.weatherapi.com/v1/current.json?key=a2922e53f9c34d9ebd830519260603&q=London&aqi=yes`;
 
   try {
     const response = await fetch(url);
@@ -22,4 +22,5 @@ async function getWeather() {
     console.error(error);
   }
 }
+
 
